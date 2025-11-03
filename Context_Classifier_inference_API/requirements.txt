@@ -1,0 +1,35 @@
+# =============================
+# Core dependencies
+# =============================
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+tqdm==4.67.1
+typing-extensions==4.15.0
+pyarrow==22.0.0
+PyYAML==6.0.3
+
+# =============================
+# Hugging Face ecosystem
+# =============================
+transformers==4.44.2
+datasets==3.0.1
+accelerate==1.11.0
+huggingface-hub==0.36.0
+
+# =============================
+# Deep learning backend
+# (CUDA 12.8 compatible)
+# =============================
+torch==2.9.0
+torchvision==0.24.0
+torchaudio==2.9.0
+triton==3.5.0
+
+
+
+# =============================
+# fastapi
+# =============================
+fastapi
+uvicorn
